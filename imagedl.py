@@ -46,4 +46,4 @@ def downloadimages(query):
 #driver code
 for query in search:
     downloadimages(query)
-    print("\033[1;32;40m--- Images have been downloaded ---")
+    print("\033[1;32;40m--- Images have been downloaded ---\033[0m")
